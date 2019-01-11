@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/1/4  11:19
-# @Author  : 陆平！！
+# @Author  : MrLu
 # @FileName: Assert.py
 # @Software: PyCharm
 
 
 import unittest
-from .Log import run_log as logger
+from .Log import Logger as logger
+
+logger = logger(logger="Assert").logger
 
 class asser(unittest.TestCase):
 

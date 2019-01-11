@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import requests
+from common.Assert import asser
 
-class api_request():
+class api_request(asser):
 
     def __init__(self,method,url,data):
         self.method = method
@@ -46,6 +47,7 @@ class api_request():
         #获取接口的状态码
         code = self.testapi.status_code
         return code
+
 
     def getjson(self):
         #获取接口的Json数据

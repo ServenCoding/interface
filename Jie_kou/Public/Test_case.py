@@ -1,24 +1,25 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/1/3  20:16
-# @Author  : 陆平！！
+# @Author  : MrLu！！
 # @FileName: Test_case.py
 # @Software: PyCharm
 
 import unittest
 import json
 import requests
-from common.Log import run_log as logger
 from Interface_global.Global_variable import row_num,CASE
 from Public_encapsulation.Parasing_Excel_data import api_request
 from common.yaml import test_environment
+from common.Log import Logger
 from common.Assert import asser
 
+logger =Logger(logger='testCase').getlog()
 
 class jie(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-       logger.info("开始啦")
+        logger.info("开始测试")
 
     def test_1(self):
         '''
@@ -28,11 +29,13 @@ class jie(unittest.TestCase):
         for i in range(0,row_num-1):
             api = api_request(CASE.method[i],test_environment()+CASE.url[i],CASE.data[i])
             apicode = api.getcode()
+            asser.asser_Equla(self,apicode,200,"失败")
             apijson = api.getjson()
             if apicode == CASE.status[i]:
-                logger.info("{}.{}:执行成功、数据为:{}、响应码为:{}".format(i + 1, CASE.name[i], apijson,apicode))
+               logger_test1 = logger.info("{}.{}:执行成功、数据为:{}、响应码为:{}".format(i + 1, CASE.name[i], apijson,apicode))
+               print("1111")
             else:
-                logger.info('{}、{}:测试失败'.format(i + 1, CASE.name[i]))
+                logger.info('{}.{}:测试失败'.format(i + 1, CASE.name[i]))
 
     # def test_2(self):
     #     self.url = 'https://www.apiopen.top/satinApi?type=1&page=1'
@@ -51,7 +54,7 @@ class jie(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        logger.info("结束啦")
+        logger.info("测试结束")
 
 if __name__ == '__main__':
-    jie.main()
+    unittest.main()

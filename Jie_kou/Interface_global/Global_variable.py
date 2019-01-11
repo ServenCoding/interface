@@ -11,7 +11,8 @@ CASE_DATA = 4   #用例数据
 CASE_STATUS = 5 #用例状态
 CASE_KEY = 6    #验证关键字
 
-filedata = os.getcwd()+'\\The_test_case\\q2.xls'
+filedata = os.path.dirname(os.getcwd()) + '\\The_test_case\\q2.xls'
+
 row_num = readExcel(filedata).get_data_nrows()
 
 class CASE():
