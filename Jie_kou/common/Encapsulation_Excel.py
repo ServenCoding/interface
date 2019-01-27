@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from Public_encapsulation.Excel import OperationExcel
+from Jie_kou.Public_encapsulation.Excel import OperationExcel
 
 class readExcel(OperationExcel):
 

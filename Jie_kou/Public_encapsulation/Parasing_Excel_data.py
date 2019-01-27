@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
+# @Time    : 2019/1/7  0:30
+# @Author  : MrLu！！
+# @FileName: Parasing_Excel_data.py.py
+# @Software: PyCharm
 
 import requests
-from common.Assert import asser
+from Jie_kou.common.Assert import asser
 
 class api_request(asser):
 

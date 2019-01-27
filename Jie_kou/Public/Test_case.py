@@ -5,13 +5,12 @@
 # @Software: PyCharm
 
 import unittest
-import json
-import requests
-from Interface_global.Global_variable import row_num,CASE
-from Public_encapsulation.Parasing_Excel_data import api_request
-from common.yaml import test_environment
-from common.Log import Logger
-from common.Assert import asser
+from Jie_kou.Interface_global.Global_variable import row_num,CASE
+from Jie_kou.Public_encapsulation.Parasing_Excel_data import api_request
+from Jie_kou.common.yaml import test_environment
+from Jie_kou.common.Log import Logger
+from Jie_kou.common.Assert import asser
+from Jie_kou.common.write_Excel import Unit
 
 logger =Logger(logger='testCase').getlog()
 
@@ -32,8 +31,9 @@ class jie(unittest.TestCase):
             asser.asser_Equla(self,apicode,200,"失败")
             apijson = api.getjson()
             if apicode == CASE.status[i]:
-               logger_test1 = logger.info("{}.{}:执行成功、数据为:{}、响应码为:{}".format(i + 1, CASE.name[i], apijson,apicode))
-               print("1111")
+               logger.info("{}.{}:执行成功、数据为:{}、响应码为:{}".format(i + 1, CASE.name[i], apijson,apicode))
+               print(apijson)
+               Unit.write_xls(apijson)
             else:
                 logger.info('{}.{}:测试失败'.format(i + 1, CASE.name[i]))
 

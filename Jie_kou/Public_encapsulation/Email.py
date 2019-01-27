@@ -11,7 +11,7 @@ from email.header import Header
 
 def mail(recipient=''):
     sender = '18811730879@163.com'
-    my_pass = '*********'
+    my_pass = '456caocao'
     toRecipient = recipient.split(",")
 
     # 创建一个带附件的实例
@@ -42,12 +42,10 @@ def mail(recipient=''):
     try:
         server = smtplib.SMTP("smtp.163.com", 25)  # 发件人邮箱中的'SMTP'服务器，端口是25
         server.login(sender, my_pass)
-
         server.sendmail(sender, toRecipient, msg.as_string())
         # 关闭连接
         server.quit()
         print("邮件发送成功")
-
     except smtplib.SMTPException:
         print("无法发送邮件")
 

@@ -8,8 +8,8 @@ import unittest
 import sys
 import os
 import time
-from report.Runner.HTMLTestRunner3 import HTMLTestRunner
-from Public_encapsulation.Email import mail
+from Jie_kou.report.Runner.HTMLTestRunner3 import HTMLTestRunner
+from Jie_kou.Public_encapsulation.Email import mail
 
 def report():
     if len(sys.argv) > 1:
