@@ -10,7 +10,7 @@ import os
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
-from public_en import Email
+from public_en.Email import Mail
 from HTMLTestRunner3 import HTMLTestRunner
 import unittest
 def report():
@@ -32,5 +32,5 @@ if __name__=="__main__":
     discover = unittest.defaultTestLoader.discover (os_discover + '\\public\\',
                                                     pattern="Test_case.py")
     runner.run (discover)
-    Email.Mail("plu@ling-ban.com").mail_outbox()
+    Mail("plu@ling-ban.com").mail_outbox()
     fp.close ()

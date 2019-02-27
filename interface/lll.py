@@ -9,4 +9,7 @@ print('hello')
 print(sys.path)
 
 cur_path = os.path.dirname(os.getcwd())
-print(cur_path)
+attachmentPath = cur_path + '\\report\\'
+attachmentPath1 = cur_path + '\\log\\'
+print(attachmentPath1)
+print(attachmentPath)

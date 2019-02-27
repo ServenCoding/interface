@@ -1,28 +1,47 @@
+Git地址: https://github.com/lupingp007/Jie_kou
+
+本人搭建：接口自动化框架
+
+版本：        V 1.0.1.11
+
+采用：        Python+Requests+yaml+Unittest
+
 本接口自动化框架：
-    Python + Request + Unittest + yaml 实现
+
+Python + Request + Unittest + yaml 实现
 
 环境：
-    Python3.5
+
+Python3.5
 
 文件:
+
     1.common 公共类
+
     2.Interface_global 全局
+
     3.Log 存储日志
+
     4.Public 测试Case
+
     5.Public_encapsulation 也属于公共类
+
     6.Public_Set 执行TestCase
+
     7.report 测试报告
+
     8.The_test_case Excel 使用数据驱动
 
-
-此版本属于 surprisedpyV1.0.1.11
-
+此版本属于surprisedpyV1.0.1.11
 
 后续优化:
-        1.将测试结果写入Excel
-        2.加入数据库查询
-        3.MD5解密
-        6.支持邮件发送Log日志
-        7.加入token
 
-下一版本 surprisedpyV2.0.0.0 准备年底前优化完
+        1.将测试结果写入Excel(后续优化)
+
+        2.加入数据库查询
+
+        3.MD5解密
+
+        6.支持邮件发送Log日志
+
+        7.加入token

@@ -25,7 +25,7 @@ class Mail(object):
         msg['Subject'] = Header("自动化测试HTML,Log", "utf-8")
         cur_path = os.path.dirname(os.getcwd())
         attachmentPath = cur_path + '\\report\\'
-        attachmentPath1 = cur_path + '\\log\\'
+        attachmentPath1 = cur_path + '\\Log\\'
         attachmentTemp = os.listdir(attachmentPath)
         attachmentTemp1 = os.listdir(attachmentPath1)
         for i in range(len(attachmentTemp)):
@@ -36,12 +36,17 @@ class Mail(object):
             if str(attachmentTemp1[s]).find(".log") != -1:
                 attachmentName1 = attachmentTemp1[s]
 
-        bodyContent = "以下是执行后的测试报告：\n   • %s \n • %s" % (attachmentName,attachmentName1)
+        bodyContent = "以下是执行后的测试报告：\n   • %s \n   • %s" % (attachmentName,attachmentName1)
         msg.attach(MIMEText(bodyContent, "plain", "utf-8"))
         att = MIMEText(open(attachmentPath +attachmentName, "rb").read(), "base64", "utf-8")
         att["Content-Type"] = 'application/octet-stream'
         att["Content-Disposition"] = 'attachment; filename=' + attachmentName
         msg.attach(att)
+
+        atd = MIMEText(open(attachmentPath1 +attachmentName1, "rb").read(), "base64", "utf-8")
+        atd["Content-Type"] = 'application/octet-stream'
+        atd["Content-Disposition"] = 'attachment; filename=' + attachmentName1
+        msg.attach(atd)
 
         try:
             server = smtplib.SMTP("smtp.163.com", 25)  # 发件人邮箱中的'SMTP'服务器，端口是25
