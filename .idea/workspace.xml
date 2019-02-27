@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83c5122-650b-4392-bf9e-2f7641b7d05b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jie_kou/__int__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jie_kou/report/2019-02-27_17_27_37_Interface_Report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jie_kou/report/2019-02-27_17_29_40_Interface_Report.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/Log/2019-02-27_13_21_21_.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/Log/2019-02-27_16_47_32_.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/The_test_case/q3.xls" afterPath="$PROJECT_DIR$/Jie_kou/The_test_case/q3.xls" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/.idea/workspace.xml___jb_tmp___" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Jie_kou/Log/2019-02-27_13_22_11_.log" afterPath="$PROJECT_DIR$/Jie_kou/Log/2019-02-27_17_29_41_.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Jie_kou/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py" afterPath="$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py" afterPath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +26,7 @@
     <SUITE FILE_PATH="coverage/Interface_01$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1551080573274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Interface_01$Run_Set.coverage" NAME="Run_Set Coverage Results" MODIFIED="1551257252267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou/Public_Set" />
     <SUITE FILE_PATH="coverage/Interface_01$abc.coverage" NAME="abc Coverage Results" MODIFIED="1550892682160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../python/Lib" />
-    <SUITE FILE_PATH="coverage/Interface_01$Run_Set__1_.coverage" NAME="Run_Set (1) Coverage Results" MODIFIED="1551260979223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jie_kou/Public_Set" />
+    <SUITE FILE_PATH="coverage/Interface_01$Run_Set__1_.coverage" NAME="Run_Set (1) Coverage Results" MODIFIED="1551270653331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jie_kou/Public_Set" />
     <SUITE FILE_PATH="coverage/Interface_01$Mysql.coverage" NAME="Mysql Coverage Results" MODIFIED="1548418984698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou/common" />
     <SUITE FILE_PATH="coverage/Interface_01$py_test_in_aaa_py.coverage" NAME="py.test in aaa.py Coverage Results" MODIFIED="1551082648486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou" />
   </component>
@@ -38,9 +35,11 @@
       <file leaf-file-name="Run_Set.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jie_kou/Public_Set/Run_Set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="368">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="e#119#134#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +67,7 @@
       <file leaf-file-name="Email.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jie_kou/Public_encapsulation/Email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="989">
               <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
               <folding />
             </state>
@@ -133,9 +132,9 @@
         <option value="$PROJECT_DIR$/jie_kou/Interface_global/Global_variable.py" />
         <option value="$PROJECT_DIR$/jie_kou/Public/Test_case.py" />
         <option value="$PROJECT_DIR$/jie_kou/Public_encapsulation/Parasing_Excel_data.py" />
-        <option value="$PROJECT_DIR$/jie_kou/Public_Set/Run_Set.py" />
         <option value="$PROJECT_DIR$/jie_kou/Public_encapsulation/Email.py" />
         <option value="$PROJECT_DIR$/jie_kou/__int__.py" />
+        <option value="$PROJECT_DIR$/jie_kou/Public_Set/Run_Set.py" />
       </list>
     </option>
   </component>
@@ -145,7 +144,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -185,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,68 +192,16 @@
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface_global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="Public_encapsulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="Public_Set" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
-              <item name="The_test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/functional_interface_automation_framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -412,20 +358,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32675907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15884861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26608506" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.113413304" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40676117" sideWeight="0.51759064" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -603,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#123#134#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,21 +614,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-584">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jie_kou/__int__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/__int__.py" />
     <entry file="file://$PROJECT_DIR$/jie_kou/Public_encapsulation/Email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="989">
           <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding />
         </state>
@@ -712,9 +644,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jie_kou/Public_Set/Run_Set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="368">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#119#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

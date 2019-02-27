@@ -11,7 +11,7 @@ from email.header import Header
 
 class Mail(object):
 
-    def __init__(self,recipient='',recipient1='',sender='18811730879@163.com',my_pass='456.caocao'):
+    def __init__(self,recipient='',recipient1='',sender='18811730879@163.com',my_pass='456.....'):
         self.recipient = recipient
         self.recipient1 = recipient1
         self.sender = sender
@@ -36,19 +36,12 @@ class Mail(object):
             if str(attachmentTemp1[s]).find(".log") != -1:
                 attachmentName1 = attachmentTemp1[s]
 
-        bodyContent = "以下是执行后的测试报告：\n   • %s" % attachmentName
+        bodyContent = "以下是执行后的测试报告：\n   • %s\n   • %s" % (attachmentName,attachmentName1)
         msg.attach(MIMEText(bodyContent, "plain", "utf-8"))
         att = MIMEText(open(attachmentPath +attachmentName, "rb").read(), "base64", "utf-8")
         att["Content-Type"] = 'application/octet-stream'
         att["Content-Disposition"] = 'attachment; filename=' + attachmentName
         msg.attach(att)
-
-        bodyContent1 = "以下是执行后的测试报告：\n   • %s" % attachmentName1
-        msg.attach(MIMEText(bodyContent1, "plain", "utf-8"))
-        attq = MIMEText(open(attachmentPath1 +attachmentName1, "rb").read(), "base64", "utf-8")
-        attq["Content-Type"] = 'application/octet-stream'
-        attq["Content-Disposition"] = 'attachment; filename=' + attachmentName1
-        msg.attach(attq)
 
         try:
             server = smtplib.SMTP("smtp.163.com", 25)  # 发件人邮箱中的'SMTP'服务器，端口是25
@@ -61,11 +54,6 @@ class Mail(object):
             print("报告无法发送")
 
 
-
-if __name__ == "__main__":
-    s = Mail("plu@ling-ban.com")
-    s.mail_outbox()
-    # s.mail_log()
 
 
 
