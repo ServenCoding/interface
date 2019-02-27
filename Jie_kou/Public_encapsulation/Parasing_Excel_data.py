@@ -52,6 +52,11 @@ class api_request(asser):
         code = self.testapi.status_code
         return code
 
+    def get_content(self):
+        #获取返回报文
+        content = self.testapi.text
+        return content
+
 
     def getjson(self):
         #获取接口的Json数据

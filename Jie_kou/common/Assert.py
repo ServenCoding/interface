@@ -7,6 +7,7 @@
 
 import unittest
 from .Log import Logger as logger
+import json
 
 logger = logger(logger="Assert").logger
 
@@ -26,6 +27,21 @@ class asser(unittest.TestCase):
             logger.info('断言成功：%r == %r' %(parameter,validation))
         except Exception as e:
             logger.info("断言相等失败:%s" %e)
+
+    def asser_In(self, parameter, validation, msg):
+        '''
+        断言parameter是否在validation中
+        :param parameter:
+        :param validation:
+        :param msg:
+        :return:
+        '''
+        try:
+            logger.info("断言parameter是否在validation中：%r In %r" % (parameter, validation))
+            self.assertIn(parameter, validation, msg=msg)
+            logger.info('断言成功：%r 在 %r' % (parameter, validation))
+        except Exception as e:
+            logger.info(" 断言parameter是否在validation中失败:%r" % e)
 
     def asser_NotEqual(self,parameter,validation,msg):
         '''
@@ -95,19 +111,7 @@ class asser(unittest.TestCase):
         except Exception as e:
             logger.info(" 断言parameter是否为空失败:%s" %e)
 
-    def asser_In(self,parameter,validation,msg):
-        '''
-        断言parameter是否在validation中
-        :param parameter:
-        :param validation:
-        :param msg:
-        :return:
-        '''
-        try:
-            logger.info("断言parameter是否在validation中：%r In %r" %parameter%validation)
-            self.assertIn(parameter,validation,msg=msg)
-        except Exception as e:
-            logger.info(" 断言parameter是否在validation中失败:%s" %e)
+
 
 
 

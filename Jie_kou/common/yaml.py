@@ -6,7 +6,7 @@
 
 #测试环境
 def test_environment():
-    test_environment_start = "https://www.apiopen.top/"
+    test_environment_start = "http://192.168.2.95:28888/"
     return test_environment_start
 
 

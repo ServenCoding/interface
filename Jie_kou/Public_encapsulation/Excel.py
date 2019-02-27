@@ -12,7 +12,6 @@ class OperationExcel(object):
     def __init__(self,file_name):
         self.file_name = file_name
 
-
     # 获取sheets的内容
     def get_data(self):
         xls = xlrd.open_workbook(self.file_name)

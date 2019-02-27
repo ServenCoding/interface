@@ -9,7 +9,7 @@ import sys
 import os
 import time
 from Jie_kou.report.Runner.HTMLTestRunner3 import HTMLTestRunner
-from Jie_kou.Public_encapsulation.Email import mail
+from Jie_kou.Public_encapsulation.Email import Mail
 
 def report():
     if len(sys.argv) > 1:
@@ -31,5 +31,6 @@ if __name__=="__main__":
                                                     pattern="Test_case.py")
     runner.run (discover)
     fp.close ()
-    # mail("plu@ling-ban.com")
+    # Mail("plu@ling-ban.com").mail_outbox()
+    # Mail("plu@ling-ban.com").mail_log()
 
