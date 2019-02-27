@@ -5,12 +5,12 @@
 # @Software: PyCharm
 
 import unittest
-from Jie_kou.Interface_global.Global_variable import row_num,CASE
-from Jie_kou.Public_encapsulation.Parasing_Excel_data import api_request
-from Jie_kou.common.yaml import test_environment
-from Jie_kou.common.Log import Logger
-from Jie_kou.common.Assert import asser
-from Jie_kou.common.write_Excel import Unit
+from jie_kou.Interface_global.Global_variable import row_num,CASE
+from jie_kou.Public_encapsulation.Parasing_Excel_data import api_request
+from jie_kou.common.yaml import test_environment
+from jie_kou.common.Log import Logger
+from jie_kou.common.Assert import asser
+from jie_kou.common.write_Excel import Unit
 import json
 
 logger =Logger(logger='testCase').getlog()

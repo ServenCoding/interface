@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83c5122-650b-4392-bf9e-2f7641b7d05b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/Log/2019-01-27_21_03_12_.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/report/2019-01-27_21_03_12_Interface_Report.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/The_test_case/q2.xls" afterPath="$PROJECT_DIR$/Jie_kou/The_test_case/q2.xls" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/report/2019-02-27_13_21_21_Interface_Report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Jie_kou/report/2019-02-27_13_22_11_Interface_Report.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/The_test_case/q3.xls" afterPath="$PROJECT_DIR$/Jie_kou/The_test_case/q3.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public/Test_case.py" afterPath="$PROJECT_DIR$/Jie_kou/Public/Test_case.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py" afterPath="$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py" afterPath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Excel.py" afterPath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Excel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Parasing_Excel_data.py" afterPath="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Parasing_Excel_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/common/Assert.py" afterPath="$PROJECT_DIR$/Jie_kou/common/Assert.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jie_kou/common/yaml.py" afterPath="$PROJECT_DIR$/Jie_kou/common/yaml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jie_kou/Interface_global/Global_variable.py" afterPath="$PROJECT_DIR$/jie_kou/Interface_global/Global_variable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jie_kou/Public/Test_case.py" afterPath="$PROJECT_DIR$/jie_kou/Public/Test_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jie_kou/Public_encapsulation/Parasing_Excel_data.py" afterPath="$PROJECT_DIR$/jie_kou/Public_encapsulation/Parasing_Excel_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jie_kou/common/Encapsulation_Excel.py" afterPath="$PROJECT_DIR$/jie_kou/common/Encapsulation_Excel.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,105 +31,10 @@
     <SUITE FILE_PATH="coverage/Interface_01$Mysql.coverage" NAME="Mysql Coverage Results" MODIFIED="1548418984698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou/common" />
     <SUITE FILE_PATH="coverage/Interface_01$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1551080573274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Interface_01$py_test_in_aaa_py.coverage" NAME="py.test in aaa.py Coverage Results" MODIFIED="1551082648486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou" />
-    <SUITE FILE_PATH="coverage/Interface_01$Run_Set.coverage" NAME="Run_Set Coverage Results" MODIFIED="1551244931356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou/Public_Set" />
+    <SUITE FILE_PATH="coverage/Interface_01$Run_Set.coverage" NAME="Run_Set Coverage Results" MODIFIED="1551257252267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jie_kou/Public_Set" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Parasing_Excel_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/Public_encapsulation/Parasing_Excel_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-              <folding>
-                <element signature="e#133#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/Public/Test_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#121#136#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write_Excel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/common/write_Excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="e#123#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/common/Log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-              <folding>
-                <element signature="e#115#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/common/Assert.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding>
-                <element signature="e#117#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Global_variable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/Interface_global/Global_variable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#25#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run_Set.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#119#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Excel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jie_kou/Public_encapsulation/Excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,10 +57,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Jie_kou/aaa.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Jie_kou/Public/Test_case.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Jie_kou/common/Mysql.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/jie_kou/aaa.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/jie_kou/Public/Test_case.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/jie_kou/Public_encapsulation/Email.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/jie_kou/common/Mysql.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -174,7 +76,6 @@
         <option value="$PROJECT_DIR$/Jie_kou/aaaaaaa.py" />
         <option value="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py" />
         <option value="$PROJECT_DIR$/Jie_kou/common/yaml.py" />
-        <option value="$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py" />
         <option value="$PROJECT_DIR$/Jie_kou/Interface_global/Global_variable.py" />
         <option value="$PROJECT_DIR$/Jie_kou/Public_encapsulation/Parasing_Excel_data.py" />
         <option value="$PROJECT_DIR$/Jie_kou/common/Encapsulation_Excel.py" />
@@ -186,6 +87,12 @@
         <option value="$PROJECT_DIR$/Jie_kou/common/Assert.py" />
         <option value="$PROJECT_DIR$/Jie_kou/Public/Test_case.py" />
         <option value="$PROJECT_DIR$/Jie_kou/common/write_Excel.py" />
+        <option value="$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py" />
+        <option value="$PROJECT_DIR$/jie_kou/Public_Set/Run_Set.py" />
+        <option value="$PROJECT_DIR$/jie_kou/common/Encapsulation_Excel.py" />
+        <option value="$PROJECT_DIR$/jie_kou/Interface_global/Global_variable.py" />
+        <option value="$PROJECT_DIR$/jie_kou/Public/Test_case.py" />
+        <option value="$PROJECT_DIR$/jie_kou/Public_encapsulation/Parasing_Excel_data.py" />
       </list>
     </option>
   </component>
@@ -247,37 +154,61 @@
             <path>
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
               <item name="Interface_global" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Public_encapsulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Public_Set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
               <item name="Runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interface_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Jie_kou" type="462c0819:PsiDirectoryNode" />
+              <item name="jie_kou" type="462c0819:PsiDirectoryNode" />
               <item name="The_test_case" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -442,15 +373,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24253732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24427481" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09487459" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -485,13 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/xlwt/Worksheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -500,7 +423,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-01-27_18_44_19_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Public_Set/HtmlRunner.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/Public_Set/HtmlRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -523,22 +446,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-01-28_17_32_03_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/common/yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-21_12_26_36_.log" />
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-01-27_21_03_12_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Public_encapsulation/Email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jie_kou/report/2019-02-21_12_29_04_Interface_Report.html" />
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-21_21_06_47_.log" />
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-21_21_14_33_.log" />
@@ -546,13 +455,6 @@
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-21_12_29_04_.log" />
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-22_18_39_48_.log" />
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-23_09_53_00_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/common/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -569,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/report/Runner/HTMLTestRunner3.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/report/Runner/HTMLTestRunner3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
@@ -586,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Interpretation">
+    <entry file="file://$PROJECT_DIR$/jie_kou/Interpretation">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-205">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -629,24 +531,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-25_11_12_41_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/bbbb.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/bbbb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/aaa.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/aaa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/common/Encapsulation_Excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -657,30 +552,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Public_encapsulation/Parasing_Excel_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="e#133#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-25_18_32_10_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Interface_global/Global_variable.py">
+    <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-25_18_45_56_.log" />
+    <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-25_18_39_29_.log" />
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/Assert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/common/Assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
+        <state relative-caret-position="888">
           <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="e#117#132#0" expanded="true" />
@@ -688,9 +565,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-25_18_45_56_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Log/2019-02-25_18_39_29_.log" />
-    <entry file="file://$PROJECT_DIR$/Jie_kou/common/Log.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/Encapsulation_Excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/Log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
@@ -700,17 +591,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Public_encapsulation/Excel.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/Mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#130#0" expanded="true" />
+            <marker date="1548419026963" expanded="true" signature="2633:2673" ph="SELECT * FRO... business_copy" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/common/write_Excel.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/write_Excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="566">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#123#134#0" expanded="true" />
@@ -718,23 +612,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Public/Test_case.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/common/yaml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/Interface_global/Global_variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/Public/Test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/Public_encapsulation/Email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
-            <element signature="e#121#136#0" expanded="true" />
+            <element signature="e#26#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jie_kou/Public_Set/Run_Set.py">
+    <entry file="file://$PROJECT_DIR$/jie_kou/Public_encapsulation/Excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#119#134#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/Public_encapsulation/Parasing_Excel_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jie_kou/Public_Set/Run_Set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

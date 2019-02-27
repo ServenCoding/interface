@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from Jie_kou.common.Encapsulation_Excel import readExcel
+from jie_kou.common.Encapsulation_Excel import readExcel
 import os
 
 CASE_ID = 0 #用例ID

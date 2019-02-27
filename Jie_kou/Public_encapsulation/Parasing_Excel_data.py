@@ -5,7 +5,7 @@
 # @Software: PyCharm
 
 import requests
-from Jie_kou.common.Assert import asser
+from jie_kou.common.Assert import asser
 
 class api_request(asser):
 
