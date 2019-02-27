@@ -21,7 +21,6 @@ def report():
         now = time.strftime("%Y-%m-%d_%H_%M_%S_")
         report_name = os.path.dirname(os.getcwd()) + '\\report\\'+now+'Interface_Report.html'
         print(report_name)
-
     return report_name
 
 if __name__=="__main__":

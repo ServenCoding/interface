@@ -25,7 +25,7 @@ class Mail(object):
         msg['Subject'] = Header("自动化测试HTML,Log", "utf-8")
         cur_path = os.path.dirname(os.getcwd())
         attachmentPath = cur_path + '\\report\\'
-        attachmentPath1 = cur_path + '\\Log\\'
+        attachmentPath1 = cur_path + '\\log\\'
         attachmentTemp = os.listdir(attachmentPath)
         attachmentTemp1 = os.listdir(attachmentPath1)
         for i in range(len(attachmentTemp)):
