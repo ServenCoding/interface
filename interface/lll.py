@@ -4,5 +4,9 @@
 # @FileName: lll.py
 # @Software: PyCharm
 import sys
+import os
 print('hello')
 print(sys.path)
+
+cur_path = os.path.dirname(os.getcwd())
+print(cur_path)
