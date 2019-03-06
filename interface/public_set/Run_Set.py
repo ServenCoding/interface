@@ -20,7 +20,6 @@ def report():
     else:
         now = time.strftime("%Y-%m-%d_%H_%M_%S_")
         report_name = os.path.dirname(os.getcwd()) + '\\report\\'+now+'Interface_Report.html'
-        print(report_name)
     return report_name
 
 if __name__=="__main__":
@@ -31,5 +30,5 @@ if __name__=="__main__":
     discover = unittest.defaultTestLoader.discover (os_discover + '\\public\\',
                                                     pattern="Test_case.py")
     runner.run (discover)
-    Mail("plu@ling-ban.com").mail_outbox()
+    # Mail("plu@ling-ban.com").mail_outbox()
     fp.close ()

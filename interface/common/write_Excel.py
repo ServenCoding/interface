@@ -25,7 +25,8 @@ class Unit():
         for i, p in enumerate(lTitle):
             for j, q in enumerate(p):
                 worksheet.write(i,j,q)
-        worksheet.write(1, 0, label=str(k))
+        for i in range(len(k)):
+            worksheet.write(1, i, label=str(k))
         saveExcel = os.path.dirname(os.getcwd())+"\\The_test_case\\q3.xls"
         workbook.save(saveExcel)
 
