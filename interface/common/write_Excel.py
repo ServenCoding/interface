@@ -25,11 +25,18 @@ class Unit():
         for i, p in enumerate(lTitle):
             for j, q in enumerate(p):
                 worksheet.write(i,j,q)
-        for i in range(len(k)):
-            worksheet.write(1, i, label=str(k))
+        i = []
+        for c in k:
+            i.append(c)
+        for m in i:
+            return m
+        for a in range(len(i)):
+            worksheet.write(1,a,str(m))
         saveExcel = os.path.dirname(os.getcwd())+"\\The_test_case\\q3.xls"
         workbook.save(saveExcel)
 
+if __name__ == "__main__":
+    Unit.write_xls('sadsadasdasdasaq')
 
 
 

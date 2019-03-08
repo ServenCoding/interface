@@ -11,8 +11,6 @@ from common.yaml import test_environment
 from common.Log import Logger
 from common.Assert import asser
 from common.write_Excel import Unit
-import json
-
 logger =Logger(logger='testCase').getlog()
 
 class jie(unittest.TestCase):
@@ -23,7 +21,7 @@ class jie(unittest.TestCase):
 
     def test_(self):
         '''
-        接口测试Case1
+        接口测试Case
         :return:
         '''
         for i in range(0,row_num-1):
@@ -31,11 +29,11 @@ class jie(unittest.TestCase):
             apicode = api.getcode()
             apicontent = api.get_content()
             apijson = api.getjson()
-            asser.asser_Equla(self, apicode, 200, "失败")
-            asser.asser_In(self, CASE.status[i], apicontent, "断言失败")
+            # asser.asser_Equla(self, apicode, 200, "失败")
+            # asser.asser_In(self, CASE.status[i], apicontent, "断言失败")
             if apicode == 200:
-               logger.info("{}.{}:执行成功、数据为:{}、响应码为:{}、断言数据:{}".format(i + 1, CASE.name[i],apijson,apicode,CASE.status))
-               print(apicontent)
+               # logger.info("{}.{}:执行成功、数据为:{}、响应码为:{}、断言数据:{}".format(i + 1, CASE.name[i],apijson,apicode,CASE.status))
+
                Unit.write_xls(apijson)
             else:
                 logger.info('{}.{}:测试失败'.format(i + 1, CASE.name[i]))
@@ -43,3 +41,7 @@ class jie(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         logger.info("测试结束")
+
+
+if __name__ == "__name__":
+    unittest.main()
