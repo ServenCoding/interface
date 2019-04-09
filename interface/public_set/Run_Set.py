@@ -9,10 +9,12 @@ import sys
 import os
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
+
 sys.path.append(rootPath)
 from public_en.Email import Mail
-from HTMLTestRunner3 import HTMLTestRunner
+from report.Runner.HTMLTestRunner3 import HTMLTestRunner
 import unittest
+
 def report():
     if len(sys.argv) > 1:
         report_name = os.path.dirname(os.getcwd()) + '\\report\\'  + sys.argv[1] + '_result.html'

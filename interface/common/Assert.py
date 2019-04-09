@@ -36,7 +36,7 @@ class asser(unittest.TestCase):
         :return:
         '''
         try:
-            logger.info("断言parameter是否在validation中：%r In %r" % (parameter, validation))
+            logger.info("断言%r是否在%r中 " % (parameter, validation))
             self.assertIn(parameter, validation, msg=msg)
             logger.info('断言成功：%r 在 %r' % (parameter, validation))
         except Exception as e:

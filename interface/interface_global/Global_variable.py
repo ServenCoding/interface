@@ -10,10 +10,12 @@ CASE_URL = 3    #请求地址
 CASE_DATA = 4   #用例数据
 CASE_STATUS = 5 #用例状态
 CASE_KEY = 6    #验证关键字
+CASE_SQL = 7  #验证SQL查询
 
-filedata = os.path.dirname(os.getcwd()) + '\\The_test_case\\q2.xls'
+filedata = os.path.dirname(os.getcwd()) + '\\The_test_case\\Interface.xls'
 
-row_num = readExcel(filedata).get_data_nrows()
+row_num = readExcel(filedata).get_data_nrows()   #获取行数
+# row_num_1 = filedata #Case目录
 
 class CASE():
     ID = readExcel(filedata).get_name(CASE_ID)
@@ -23,6 +25,7 @@ class CASE():
     data = readExcel(filedata).get_name(CASE_DATA)
     status = readExcel(filedata).get_name(CASE_STATUS)
     key = readExcel(filedata).get_name(CASE_KEY)
+    sql = readExcel(filedata).get_name(CASE_SQL)
 
 
 

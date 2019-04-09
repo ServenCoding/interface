@@ -22,7 +22,7 @@ class api_request(asser):
                 if self.data == '':
                     print("没有参数")
                 else:
-                    result = requests.post(self.url,data=(self.data).encode('utf-8'))
+                    result = requests.post(self.url,data=(self.data))
 
             elif self.method == 'get':
                 if self.data == '':
@@ -62,3 +62,8 @@ class api_request(asser):
         #获取接口的Json数据
         json_code = self.testapi.json()
         return json_code
+
+    def gethead(self):
+        #获取接口的Json数据
+        get_head = self.testapi.headers
+        return get_head

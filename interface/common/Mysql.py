@@ -4,14 +4,15 @@
 # @FileName: Mysql.py
 # @Software: PyCharm
 
+
 import MySQLdb
 import MySQLdb.cursors
 
-mysql_info = {"host":"192.168.2.93",
+mysql_info = {"host":'8888888888',
               "port":3306,
-              "user":"****",
-              "passwd":"****",
-              "db":"aiaas_swb",
+              "user":"root",
+              "passwd":"123456",
+              "db":"ssss",
               "charset":"utf8"}
 class MysqlUtil():
     '''
@@ -68,7 +69,7 @@ class MysqlUtil():
 
     def mysql_dict(self,sql):
         '''返回查询的字典'''
-        cur = self.conn.cursor(cursorclass= MySQLdb.cursors.DictCursor)
+        cur = self.conn.cursor(cursorclass=MySQLdb.cursors.DictCursor)
         try:
             cur.execute(sql)
         except Exception as e:
@@ -95,8 +96,8 @@ class MysqlUtil():
 
 if __name__ == "__main__":
     mysql = MysqlUtil()
-    sql = "SELECT * FROM business_copy WHERE id = 4"
-    mysql.mysql_execute(sql)
+    sql = "SELECT * FROM t_hotel_event WHERE id = 1"
+    # mysql.mysql_execute(sql)
     print(mysql.mysql_dict(sql))
     print(mysql.mysql_getstring(sql))
     print(mysql.mysql_close())
